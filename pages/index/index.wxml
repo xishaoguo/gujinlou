@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<view class="page">
+  <view class='page_hd'>
+    <Select prop-array='{{selectArray}}'></Select>
+    <view class='page-content'>
+      
+    </view>
+  </view>
+  <view class='page_bd'></view>
+</view>
