@@ -1,2 +1,24 @@
 <!--Compoents/item/item.wxml-->
-<text>Compoents/item/item.wxml</text>
+<view class="data-item">
+  <view class="item-header">
+    <image src="yuyu.jpg" class="head-portrait"></image>
+    <view>
+      <text>雷凯茹</text>
+      <text>2分钟前</text>
+    </view>
+    <view class="gander">
+      <text class="iconfont iconxingbienv">女</text>
+    </view>
+    <view class="money">￥118</view>
+  </view>
+  <view class="item-title">大家好才是真的好</view>
+  <text class="details-information">大家好才是真的好大家好才是真的好大家好才是真的好大家好才是真的好大家好才是真的好大家好才是真的好</text>
+  <view class="item-position">
+    <text>位置：</text>
+    <view>
+      <text>谷金楼乡</text>
+      <text>东邵郭村</text>
+    </view>
+    <text class="item-apply">110人申请</text>
+  </view>
+</view>

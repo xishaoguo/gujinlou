@@ -1,4 +1,4 @@
-/* Compoents/select/select.wxss */
+/* Compoents/industry/industry.wxss *//* Compoents/select/select.wxss */
 @import "../../iconfont.wxss";
 .com-selectBox{
     width: 140px;

@@ -2,9 +2,19 @@
 <view class="page">
   <view class='page_hd'>
     <Select prop-array='{{selectArray}}'></Select>
-    <view class='page-content'>
-      
+    <IndustrySelect prop-array='{{selectArray}}'></IndustrySelect>
+  </view>
+  <view class='page_bd'>
+    <view class="list">
+      <scroll-view scroll-y>
+        <ListItem bindtap="nextPage"></ListItem>
+        <ListItem bindtap="nextPage"></ListItem>
+        <ListItem bindtap="nextPage"></ListItem>
+        <ListItem bindtap="nextPage"></ListItem>
+        <ListItem bindtap="nextPage"></ListItem>
+        <ListItem bindtap="nextPage"></ListItem>
+        <ListItem bindtap="nextPage"></ListItem>
+      </scroll-view>
     </view>
   </view>
-  <view class='page_bd'></view>
 </view>

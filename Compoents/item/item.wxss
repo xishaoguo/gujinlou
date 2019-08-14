@@ -1,1 +1,71 @@
 /* Compoents/item/item.wxss */
+@import "../../iconfont.wxss";
+.data-item {
+  background-color: white;
+  border-radius: 20rpx;
+  margin-top: 20rpx;
+  padding: 20rpx;
+}
+.item-header {
+  background: #F9F9F9;
+  padding: 20rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.item-header view {
+  display: flex;
+  flex-flow: column;
+  margin-left: 20rpx;
+}
+.item-header view text{
+  font-family: "黑体";
+}
+.item-header view text:nth-child(2){
+  color: #B2B2B2;
+  font-size: 0.7rem;
+  font-weight: normal;
+}
+.head-portrait {
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+.item-header .gander text{
+  margin-left: 50rpx;
+  font-size: 0.8rem;
+  font-weight: normal;
+}
+.money {
+  color: #FF8A00;
+  font-size: 1.5rem;
+}
+.item-title {
+  font-family: "黑体";
+  margin-top: 20rpx;
+}
+.details-information {
+  color: #ADADAD;
+  font-size: 0.8rem;
+  line-height: 0.6rem;
+}
+.item-position>text:nth-child(1){
+  color: #ADADAD;
+}
+.item-position>view {
+  margin-left: -120rpx;
+  color: #31A6E2;
+}
+.item-position>view>text:nth-child(2) {
+  margin-left: 20rpx;
+}
+.item-position{
+  font-size: 0.8rem;
+  margin-top: 30rpx;
+  display: flex;
+  justify-content: space-between;
+}
+.item-apply {
+  color: #FF8A00;
+}

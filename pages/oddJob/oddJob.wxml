@@ -1,0 +1,9 @@
+<!--pages/oddJob/oddJob.wxml-->
+<view class="page">
+  <view class="odd-job1">
+    <view>需要时间：<input class="takes-time"></input></view>
+    <view>
+      
+    </view>
+  </view>
+</view>

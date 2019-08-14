@@ -107,5 +107,10 @@ Page({
       userInfo: e.detail.userInfo,
       hasUserInfo: true
     })
+  },
+  nextPage: function() {
+    wx.navigateTo({
+      url: '../oddJob/oddJob',
+    })
   }
 })

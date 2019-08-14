@@ -1,6 +1,8 @@
 {
   "usingComponents": {
     "Select": "/Compoents/select/select",
-    "Item": "Compoents/item/item"
-  }
+    "IndustrySelect": "/Compoents/industry/industry",
+    "ListItem": "/Compoents/item/item"
+  },
+  "disableScroll": true
 }

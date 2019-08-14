@@ -1,0 +1,16 @@
+/* pages/oddJob/oddJob.wxss */
+.page {
+  padding: 20rpx;
+}
+.odd-job1 {
+  display: flex;
+  justify-content: center;
+}
+
+.takes-time {
+  width: 300rpx;
+  height: 40px;
+  border: 1px solid #BCBCBC;
+  background: white;
+  line-height: 40px;
+}

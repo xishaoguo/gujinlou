@@ -14,14 +14,14 @@ Component({
    */
   data: {
     selectShow: false,//初始option不显示
-    nowText: "请选择乡/镇/村",//初始内容
+    nowText: "请选择行业",//初始内容
     animationData: {}//右边箭头的动画
   },
   /**
    * 组件的方法列表
    */
   methods: {
-    　　　//option的显示与否
+    //option的显示与否
     selectToggle: function () {
       var nowShow = this.data.selectShow;//获取当前option显示的状态
       //创建动画

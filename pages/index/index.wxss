@@ -1,1 +1,11 @@
 /**index.wxss**/
+.page_hd {
+  display: flex;
+  justify-content: space-between;
+}
+.list {
+  height: 100%;
+}
+.list scroll-view {
+  height: 1200rpx;
+}
